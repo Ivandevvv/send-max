@@ -1,0 +1,33 @@
+@import "./modal.scss";
+
+:root {
+  --background-body: #16171d;
+  --background-primary: #17181c;
+  --background-tertiary: #ffffff17;
+
+  --sans: Roboto, system-ui, "Segoe UI", sans-serif;
+
+  font: 18px/24px var(--sans);
+  letter-spacing: 0.18px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url(https://web.max.ru/_app/immutable/assets/pattern_space.aFb4MW9l.svg)
+    var(--background-body);
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
